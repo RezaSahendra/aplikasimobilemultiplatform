@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<ion-input placeholder="Apa yang kamu pikirkan ?"
+[(ngModel)]="status"></ion-input>
+  <p>
+    <button ion-button (click)="openAboutPage()" block>AboutPage</button>
+  </p>
+</ion-content>
